@@ -17,6 +17,7 @@ public class ALG_03 {
         DecimalFormat totalFormat = new DecimalFormat("#.##");
         System.out.print("O NOVO SALÁRIO SERÁ DE: R$");
         System.out.print(totalFormat.format(total));
+        resp.close();
 
     }
 }
