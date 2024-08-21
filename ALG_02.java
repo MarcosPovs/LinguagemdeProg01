@@ -24,5 +24,6 @@ public class ALG_02 {
         System.out.println("A PORCENTAGEM DE VOTOS BRANCOS É: "+ porbrancos + "%");
         System.out.println("A PORCENTAGEM DE VOTOS NULOS É: "+ pornulos + "%");
         System.out.println("A PORCENTAGEM DE VOTOS VÁLIDOS É: "+ porvalidos + "%");
+        resp.close();
     }
 }
