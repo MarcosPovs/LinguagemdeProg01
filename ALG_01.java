@@ -18,6 +18,6 @@ public class ALG_01 {
         int idade = (ano * 365) + (mes * 30) + (dia);
 
         System.out.println("A IDADE EM DIAS É " + idade + " DIAS");
-
+        resp.close();
     }
 }
