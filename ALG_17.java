@@ -8,17 +8,17 @@ public class ALG_17 {
 
         Scanner resp = new Scanner(System.in);
 
-        System.out.println("ESCREVA A NOTA P1: ");
+        System.out.println("ESCREVA A NOTA P1 (DE 0 A 10): ");
         double p1 = resp.nextDouble();
-        System.out.println("ESCREVA A NOTA E1: ");
+        System.out.println("ESCREVA A NOTA E1 (DE 0 A 10): ");
         double e1 = resp.nextDouble();
-        System.out.println("ESCREVA A NOTA E2: ");
+        System.out.println("ESCREVA A NOTA E2 (DE 0 A 10): ");
         double e2 = resp.nextDouble();
-        System.out.println("ESCREVA A NOTA DA API: ");
+        System.out.println("ESCREVA A NOTA DA API (DE 0 A 10): ");
         double api = resp.nextDouble();
-        System.out.println("ESCREVA A NOTA X: ");
+        System.out.println("ESCREVA A NOTA X (DE 0 A 1): ");
         double x = resp.nextDouble();
-        System.out.println("ESCREVA A NOTA SUB (SE NÃO HOUVE SUB DIGITE 0 ");
+        System.out.println("ESCREVA A NOTA SUB (DE 0 A 10, SE NÃO HOUVE SUB DIGITE 0 )");
         double sub = resp.nextDouble();
 
 
