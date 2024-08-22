@@ -14,6 +14,7 @@ public class ALG_07 {
             System.out.println("É MAIOR QUE 10!");
         } else {
             System.out.println("NÃO É MAIOR QUE 10!");
+            resp.close();
         }
     }
 }
