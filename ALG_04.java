@@ -24,6 +24,6 @@ public class ALG_04 {
         System.out.println(impFormat.format(impostos));
         System.out.print("O PREÇO DE VENDA SERÁ DE: R$");
         System.out.print(vendaFormat.format(venda));
-
+        resp.close();
     }
 }
