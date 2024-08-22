@@ -13,6 +13,6 @@ public class ALG_06 {
         double tempc  = (tempf - 32)* 5/9;
 
         System.out.println("A TEMPERATURA EM CELSIUS É DE: "+ tempc +"ºC");
-
+        resp.close();
     }
 }
