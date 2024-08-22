@@ -26,7 +26,7 @@ public class ALG_05 {
 
         System.out.print("O SALÁRIO FINAL SERÁ DE: R$");
         System.out.println(salarioFormat.format(salario));
-
+        resp.close();
 
     }
 }
